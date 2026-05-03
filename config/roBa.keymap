@@ -1,7 +1,5 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 1
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
@@ -79,14 +77,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-
-        encoder_scroll: encoder_scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "ENCODER_SCROLL";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-            tap-ms = <5>;
-        };
     };
 
     keymap {
@@ -100,7 +90,7 @@
 &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &kp SPACE  &mo 1                 &mo 3          &kp LEFT_CONTROL                             &kp RIGHT_SHIFT
             >;
 
-            sensor-bindings = <&encoder_scroll>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         NUM {
@@ -111,7 +101,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                                  &kp PLUS
             >;
 
-            sensor-bindings = <&encoder_scroll>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         ARROWandMOUSE {
@@ -122,7 +112,7 @@
 &trans  &trans          &trans          &trans           &trans  &trans      &trans         &trans                                                      &mo 4
             >;
 
-            sensor-bindings = <&encoder_scroll>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         SYMBOL {
@@ -133,7 +123,7 @@
 &trans           &trans             &trans     &trans        &trans       &trans      &trans         &trans                                                                            &trans
             >;
 
-            sensor-bindings = <&encoder_scroll>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         Scroll {
@@ -144,7 +134,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&encoder_scroll>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
     };
 };
