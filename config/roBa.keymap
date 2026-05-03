@@ -52,6 +52,11 @@
             bindings = <&kp F9>;
             key-positions = <6 7>;
         };
+
+        Hankaku_alhabet {
+            bindings = <&kp F10>;
+            key-positions = <8 7>;
+        };
     };
 
     macros {
@@ -112,10 +117,10 @@
 
         SYMBOL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &kp BACKSPACE  &trans  &trans  &trans  &trans  &kp ENTER
+&trans  &trans  &trans  &trans  &trans  &trans      &kp DELETE     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN C_AC_SCROLL_UP>;
