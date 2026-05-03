@@ -34,7 +34,7 @@
         };
 
         Hankaku_Zenkaku {
-            bindings = <&kp LS(LANG_ZENKAKUHANKAKU)>;
+            bindings = <&kp LANG_ZENKAKUHANKAKU>;
             key-positions = <1 0>;
         };
 
