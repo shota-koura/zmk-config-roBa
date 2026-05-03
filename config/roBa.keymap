@@ -117,10 +117,10 @@
 
         SYMBOL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                             &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &kp BACKSPACE  &trans  &trans  &trans  &trans  &kp ENTER
-&trans  &trans  &trans  &trans  &trans  &trans      &kp DELETE     &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                          &trans
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR    &kp PERCENT                             &kp SINGLE_QUOTE  &kp MINUS          &kp LCTRL             &kp NON_US_BACKSLASH   &kp AT_SIGN
+&kp SEMICOLON    &kp COLON          &kp SLASH  &kp ASTERISK  &trans       &trans      &kp BACKSPACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
+&trans           &trans             &trans     &trans        &trans       &trans      &kp DELETE     &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans           &trans             &trans     &trans        &trans       &trans      &trans         &trans                                                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN C_AC_SCROLL_UP>;
