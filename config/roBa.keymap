@@ -120,7 +120,7 @@
 
         ARROWandMOUSE {
             bindings = <
-&none   &none           &none           &none            &none                              &kp RC(W)  &mkp MB4        &kp F5          &mkp MB5         &none
+&none   &none           &none           &none            &none                              &kp RC(W)  &mkp MB4        &none           &mkp MB5         &kp F5
 &none   &none           &kp UP_ARROW    &none            &none   &none       &kp BACKSPACE  &kp RC(C)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
 &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp DELETE     &kp RC(V)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
 &trans  &trans          &trans          &trans           &trans  &trans      &trans         &trans                                                      &trans
