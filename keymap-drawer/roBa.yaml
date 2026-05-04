@@ -92,24 +92,24 @@ layers:
   - Snipe
   SYMBOL:
   - '!'
-  - '"'
+  - Sft+2
   - '#'
   - $
   - '%'
-  - ''''
+  - Sft+7
   - '-'
-  - LCTRL
-  - \
-  - '@'
+  - '='
+  - INTERNATIONAL 1
+  - '['
   - ;
-  - ':'
+  - ''''
   - /
-  - '*'
+  - '"'
   - ''
   - ''
   - BACKSPACE
-  - '['
   - ']'
+  - \
   - (
   - )
   - ENTER
@@ -122,8 +122,8 @@ layers:
   - DELETE
   - <
   - '>'
-  - '{'
-  - '}'
+  - Sft+]
+  - Sft+\
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
