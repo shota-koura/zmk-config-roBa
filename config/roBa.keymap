@@ -98,7 +98,7 @@
 &kp Q           &kp W         &kp E         &kp R  &kp T                                           &kp Y             &kp U  &kp I      &kp O    &kp P
 &kp A           &kp S         &kp D         &kp F  &kp G      &none                 &kp BACKSPACE  &kp H             &kp J  &kp K      &kp L    &kp ENTER
 &kp Z           &kp X         &kp C         &kp V  &kp B      &kp INT_MUHENKAN      &kp DELETE     &kp N             &kp M  &kp COMMA  &kp DOT  &kp QUESTION
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1  &kp SPACE  &mo 2                 &mo 3          &kp LEFT_CONTROL                             &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1  &kp SPACE  &mo 2                 &mo 3          &kp LEFT_CONTROL                             &kp MINUS
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -128,10 +128,10 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION       &kp HASH                 &kp PERIOD         &kp COMMA            &kp LS(EQUAL)                             &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LEFT_BRACKET
-&kp LS(SEMICOLON)     &kp MINUS                &kp DOUBLE_QUOTES  &kp SLASH            &kp LS(MINUS)  &none       &kp BACKSPACE  &kp LESS_THAN      &kp GREATER_THAN  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp ENTER
+&kp EXCLAMATION       &kp HASH                 &kp PERIOD         &kp COMMA            &kp LS(EQUAL)                                       &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LEFT_BRACKET
+&kp LS(SEMICOLON)     &kp MINUS                &kp DOUBLE_QUOTES  &kp SLASH            &kp LS(MINUS)            &none       &kp BACKSPACE  &kp LESS_THAN      &kp GREATER_THAN  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp ENTER
 &kp LS(LEFT_BRACKET)  &kp LS(INTERNATIONAL_3)  &kp DOLLAR         &kp INTERNATIONAL_3  &kp LS(INTERNATIONAL_1)  &none       &kp DELETE     &kp LS(NUMBER_7)   &kp LS(NUMBER_2)  &kp SINGLE_QUOTE       &kp SEMICOLON      &kp MINUS
-&trans                &trans                   &trans             &trans               &trans         &trans      &trans         &trans                                                                         &trans
+&trans                &trans                   &trans             &trans               &trans                   &trans      &trans         &trans                                                                         &trans
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
