@@ -109,7 +109,7 @@
 &none   &kp F2          &none           &none            &none                              &kp RC(W)  &mkp MB4        &kp LS(LG(S))   &mkp MB5         &mo 4
 &none   &none           &kp UP_ARROW    &none            &none   &none       &kp BACKSPACE  &kp RC(C)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
 &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp DELETE     &kp RC(V)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F5
-&trans  &trans          &trans          &trans           &trans  &trans      &trans         &trans                                                      &none
+&trans  &trans          &trans          &trans           &trans  &trans      &trans         &trans                                                      &mo 5
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -135,6 +135,15 @@
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+        };
+
+        Snipe {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
         };
     };
 };
