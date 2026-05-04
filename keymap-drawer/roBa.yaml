@@ -89,7 +89,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - Snipe
   SYMBOL:
   - '!'
   - '"'
@@ -178,6 +178,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  Snipe:
+  - ''
+  - F2
+  - ''
+  - ''
+  - ''
+  - Ctl+W
+  - '&mkp MB4'
+  - Sft+Gui+S
+  - '&mkp MB5'
+  - Scroll
+  - ''
+  - ''
+  - UP ARROW
+  - ''
+  - ''
+  - ''
+  - BACKSPACE
+  - Ctl+C
+  - '&mkp LCLK'
+  - UP ARROW
+  - '&mkp RCLK'
+  - ENTER
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - ''
+  - ''
+  - DELETE
+  - Ctl+V
+  - DOWN ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - F5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [0, 1, 2]
   k: ESCAPE
