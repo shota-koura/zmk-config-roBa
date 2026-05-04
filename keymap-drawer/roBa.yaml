@@ -92,33 +92,33 @@ layers:
   - Snipe
   SYMBOL:
   - '!'
+  - '#'
+  - .
+  - ','
+  - Sft+=
+  - ']'
+  - \
+  - Sft+8
+  - Sft+9
+  - '['
   - Sft+;
   - '-'
   - '"'
   - /
-  - ']'
-  - \
-  - (
-  - )
-  - '['
-  - $
-  - INTERNATIONAL 1
-  - '#'
   - Sft+-
-  - .
-  - ','
+  - ''
   - BACKSPACE
   - <
   - '>'
   - Sft+]
   - Sft+\
   - ENTER
-  - Sft+=
   - Sft+[
-  - Sft+INTERNATIONAL 3
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+INTERNATIONAL 1
+  - $
+  - INTERNATIONAL 1
+  - ''
+  - ''
   - DELETE
   - Sft+7
   - Sft+2
@@ -224,33 +224,33 @@ layers:
   - {type: held}
   Tentative:
   - '!'
-  - +
-  - '-'
-  - '*'
-  - /
+  - '#'
+  - .
+  - ','
+  - '~'
   - '['
   - ']'
   - (
   - )
   - '@'
-  - $
-  - \
-  - '#'
+  - +
+  - '-'
+  - '*'
+  - /
   - '='
-  - .
-  - ','
+  - ''
   - BACKSPACE
   - <
   - '>'
   - '{'
   - '}'
   - ENTER
-  - '~'
   - '`'
   - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $
+  - \
+  - ''
+  - ''
   - DELETE
   - ''''
   - '"'
