@@ -85,9 +85,9 @@
         default_layer {
             bindings = <
 &kp Q           &kp W         &kp E         &kp R  &kp T                                           &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F  &kp G      &kp LS(LG(S))         &kp BACKSPACE  &kp H             &kp J  &kp K      &kp L    &kp ENTER
+&kp A           &kp S         &kp D         &kp F  &kp G      &none                 &kp BACKSPACE  &kp H             &kp J  &kp K      &kp L    &kp ENTER
 &kp Z           &kp X         &kp C         &kp V  &kp B      &kp INT_MUHENKAN      &kp DELETE     &kp N             &kp M  &kp COMMA  &kp DOT  &kp QUESTION
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &kp SPACE  &mo 1                 &mo 3          &kp LEFT_CONTROL                             &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1  &kp SPACE  &mo 2                 &mo 3          &kp LEFT_CONTROL                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -106,10 +106,10 @@
 
         ARROWandMOUSE {
             bindings = <
-&none   &kp F2          &none           &none            &none                              &kp RC(W)  &mkp MB4        &kp LS(LG(S))   &mkp MB5         &kp F5
+&none   &kp F2          &none           &none            &none                              &kp RC(W)  &mkp MB4        &kp LS(LG(S))   &mkp MB5         &mo 4
 &none   &none           &kp UP_ARROW    &none            &none   &none       &kp BACKSPACE  &kp RC(C)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
-&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp DELETE     &kp RC(V)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&trans  &trans          &trans          &trans           &trans  &trans      &trans         &trans                                                      &mo 4
+&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp DELETE     &kp RC(V)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F5
+&trans  &trans          &trans          &trans           &trans  &trans      &trans         &trans                                                      &none
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
