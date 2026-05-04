@@ -161,10 +161,10 @@
 
         Tentative {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp SQT           &kp DOUBLE_QUOTES  &trans                &trans                 &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                            &trans
+&kp EXCLAMATION  &kp PLUS              &kp MINUS  &kp ASTERISK  &kp SLASH                                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
+&kp DOLLAR       &kp NON_US_BACKSLASH  &kp HASH   &kp EQUAL     &kp PERIOD  &kp COMMA      &kp BACKSPACE  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ENTER
+&kp TILDE        &kp GRAVE             &kp PIPE   &trans        &trans      &trans         &kp DELETE     &kp SQT           &kp DOUBLE_QUOTES  &kp COLON             &kp SEMI               &kp MINUS
+&trans           &trans                &trans     &trans        &trans      &trans         &trans         &trans                                                                            &trans
             >;
         };
     };
