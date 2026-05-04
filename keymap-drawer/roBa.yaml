@@ -92,39 +92,39 @@ layers:
   - Snipe
   SYMBOL:
   - '!'
-  - Sft+2
-  - '#'
-  - $
-  - '%'
-  - Sft+7
+  - Sft+;
   - '-'
-  - '='
-  - INTERNATIONAL 1
-  - '['
-  - ;
-  - ''''
-  - /
   - '"'
-  - ''
-  - ''
-  - BACKSPACE
+  - /
   - ']'
   - \
   - (
   - )
-  - ENTER
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - DELETE
+  - '['
+  - $
+  - INTERNATIONAL 1
+  - '#'
+  - Sft+-
+  - .
+  - ','
+  - BACKSPACE
   - <
   - '>'
   - Sft+]
   - Sft+\
-  - ''
+  - ENTER
+  - Sft+=
+  - Sft+[
+  - Sft+INTERNATIONAL 3
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DELETE
+  - Sft+7
+  - Sft+2
+  - ''''
+  - ;
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -222,6 +222,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  Tentative:
+  - '!'
+  - +
+  - '-'
+  - '*'
+  - /
+  - '['
+  - ']'
+  - (
+  - )
+  - '@'
+  - $
+  - \
+  - '#'
+  - '='
+  - .
+  - ','
+  - BACKSPACE
+  - <
+  - '>'
+  - '{'
+  - '}'
+  - ENTER
+  - '~'
+  - '`'
+  - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DELETE
+  - ''''
+  - '"'
+  - ':'
+  - ;
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 1, 2]
   k: ESCAPE
