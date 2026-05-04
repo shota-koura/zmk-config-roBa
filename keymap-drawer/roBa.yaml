@@ -114,10 +114,10 @@ layers:
   - Sft+\
   - ENTER
   - Sft+[
-  - Sft+INTERNATIONAL 1
+  - Sft+INTERNATIONAL 3
   - $
   - INTERNATIONAL 1
-  - ''
+  - Sft+INTERNATIONAL 1
   - ''
   - DELETE
   - Sft+7
@@ -249,7 +249,7 @@ layers:
   - '|'
   - $
   - \
-  - ''
+  - _
   - ''
   - DELETE
   - ''''
