@@ -128,10 +128,10 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH   &kp DOLLAR          &kp PERCENT                             &kp LS(NUMBER_7)  &kp MINUS          &kp EQUAL             &kp INTERNATIONAL_1    &kp LEFT_BRACKET
-&kp SEMICOLON    &kp SINGLE_QUOTE  &kp SLASH  &kp DOUBLE_QUOTES   &none        &none       &kp BACKSPACE  &kp RIGHT_BRACKET  &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
-&none            &none             &none      &none               &none        &none       &kp DELETE     &kp LESS_THAN      &kp GREATER_THAN   &kp LS(RIGHT_BRACKET) &kp LS(BACKSLASH)      &none
-&trans           &trans            &trans     &trans              &trans       &trans      &trans         &trans                                                                            &trans
+&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH   &kp DOLLAR         &kp PERCENT                             &kp LS(NUMBER_7)   &kp MINUS         &kp EQUAL              &kp INTERNATIONAL_1    &kp LEFT_BRACKET
+&kp SEMICOLON    &kp SINGLE_QUOTE  &kp SLASH  &kp DOUBLE_QUOTES  &none        &none       &kp BACKSPACE  &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp ENTER
+&none            &none             &none      &none              &none        &none       &kp DELETE     &kp LESS_THAN      &kp GREATER_THAN  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &none
+&trans           &trans            &trans     &trans             &trans       &trans      &trans         &trans                                                                             &trans
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -157,6 +157,15 @@
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
+        };
+
+        Tentative {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp SQT           &kp DOUBLE_QUOTES  &trans                &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                                            &trans
+            >;
         };
     };
 };
