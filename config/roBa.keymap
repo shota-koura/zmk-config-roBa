@@ -1,5 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
@@ -73,9 +75,17 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
             bindings = <&mo>, <&to_layer_0>;
-
+    
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+        };
+    
+        encoder_msc_scroll: encoder_msc_scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_SCROLL";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            tap-ms = <20>;
         };
     };
 
@@ -90,7 +100,7 @@
 &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1  &kp SPACE  &mo 2                 &mo 3          &kp LEFT_CONTROL                             &kp RIGHT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&encoder_msc_scroll>;
         };
 
         NUM {
