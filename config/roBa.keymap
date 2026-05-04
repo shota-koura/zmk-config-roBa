@@ -139,11 +139,13 @@
 
         Snipe {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&none   &kp F2          &none           &none            &none                              &kp LC(W)  &mkp MB4        &kp RS(LG(S))   &mkp MB5         &mo 4
+&none   &none           &kp UP_ARROW    &none            &none   &none       &kp BACKSPACE  &kp LC(C)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
+&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none   &none       &kp DELETE     &kp LC(V)  &kp DOWN_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F5
+&trans  &trans          &trans          &trans           &trans  &trans      &trans         &trans                                                      &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
     };
 };
