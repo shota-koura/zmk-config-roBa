@@ -128,10 +128,10 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION  &kp HASH   &kp PERIOD              &kp COMMA             &kp LS(EQUAL)                           &kp RIGHT_BRACKET  &kp BACKSLASH      &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LEFT_BRACKET
-&kp LS(SEMICOLON) &kp MINUS  &kp DOUBLE_QUOTES       &kp SLASH             &kp LS(MINUS)  &none       &kp BACKSPACE  &kp LESS_THAN      &kp GREATER_THAN   &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp ENTER
-&kp LS(LEFT_BRACKET) &kp LS(INTERNATIONAL_1) &kp DOLLAR &kp INTERNATIONAL_1  &none      &none       &kp DELETE     &kp LS(NUMBER_7)   &kp LS(NUMBER_2)  &kp SINGLE_QUOTE       &kp SEMICOLON          &kp MINUS
-&trans           &trans     &trans                  &trans                &trans     &trans      &trans         &trans                                                                             &trans
+&kp EXCLAMATION       &kp HASH                 &kp PERIOD         &kp COMMA            &kp LS(EQUAL)                             &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LEFT_BRACKET
+&kp LS(SEMICOLON)     &kp MINUS                &kp DOUBLE_QUOTES  &kp SLASH            &kp LS(MINUS)  &none       &kp BACKSPACE  &kp LESS_THAN      &kp GREATER_THAN  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp ENTER
+&kp LS(LEFT_BRACKET)  &kp LS(INTERNATIONAL_1)  &kp DOLLAR         &kp INTERNATIONAL_1  &none          &none       &kp DELETE     &kp LS(NUMBER_7)   &kp LS(NUMBER_2)  &kp SINGLE_QUOTE       &kp SEMICOLON      &kp MINUS
+&trans                &trans                   &trans             &trans               &trans         &trans      &trans         &trans                                                                         &trans
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -161,10 +161,10 @@
 
         Tentative {
             bindings = <
-&kp EXCLAMATION  &kp HASH   &kp PERIOD    &kp COMMA             &kp TILDE                             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
-&kp PLUS         &kp MINUS  &kp ASTERISK  &kp SLASH             &kp EQUAL  &none       &kp BACKSPACE  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ENTER
-&kp GRAVE        &kp PIPE   &kp DOLLAR    &kp NON_US_BACKSLASH  &none      &none       &kp DELETE     &kp SQT           &kp DOUBLE_QUOTES  &kp COLON             &kp SEMI               &kp MINUS
-&trans           &trans     &trans        &trans                &trans     &trans      &trans         &trans                                                                            &trans
+&kp EXCLAMATION  &kp HASH   &kp PERIOD    &kp COMMA             &kp TILDE                                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
+&kp PLUS         &kp MINUS  &kp ASTERISK  &kp SLASH             &kp EQUAL       &none       &kp BACKSPACE  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ENTER
+&kp GRAVE        &kp PIPE   &kp DOLLAR    &kp NON_US_BACKSLASH  &kp UNDERSCORE  &none       &kp DELETE     &kp SQT           &kp DOUBLE_QUOTES  &kp COLON             &kp SEMI               &kp MINUS
+&trans           &trans     &trans        &trans                &trans          &trans      &trans         &trans                                                                            &trans
             >;
         };
     };
