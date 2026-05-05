@@ -115,10 +115,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R  &kp T                                           &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A           &kp S         &kp D         &kp F  &kp G      &none                 &kp BACKSPACE  &kp H             &kp J  &kp K      &kp L    &kp ENTER
-&kp Z           &kp X         &kp C         &kp V  &kp B      &kp INT_MUHENKAN      &kp MINUS      &kp N             &kp M  &kp COMMA  &kp DOT  &kp QUESTION
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &kp SPACE  &mo 1                 &mo 3          &kp LEFT_CONTROL                             &kp RIGHT_SHIFT
+&kp Q           &kp W         &kp E         &kp R  &kp T                                             &kp Y             &kp U  &kp I      &kp O    &kp P
+&kp A           &kp S         &kp D         &kp F  &kp G      &none                 &kp BACKSPACE    &kp H             &kp J  &kp K      &kp L    &kp ENTER
+&kp Z           &kp X         &kp C         &kp V  &kp B      &kp INT_MUHENKAN      &kp RIGHT_SHIFT  &kp N             &kp M  &kp COMMA  &kp DOT  &kp MINUS
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mo 2  &kp SPACE  &mo 1                 &mo 3            &kp LEFT_CONTROL                             &kp QUESTION
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -126,10 +126,10 @@
 
         NUM {
             bindings = <
-&none   &none   &none   &none   &none                              &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
-&none   &none   &none   &none   &none   &none       &kp BACKSPACE  &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
-&trans  &trans  &trans  &trans  &none   &none       &kp DELETE     &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans      &trans         &trans                                                  &kp PLUS
+&none   &none   &none   &none   &none                                &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
+&none   &none   &none   &none   &none   &none       &kp BACKSPACE    &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER
+&trans  &trans  &trans  &trans  &none   &none       &kp RIGHT_SHIFT  &kp N0        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans      &trans           &trans                                                  &kp PLUS
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -137,10 +137,10 @@
 
         ARROWandMOUSE {
             bindings = <
-&none   &kp F2              &none               &none                &none                              &none   &none           &none           &none            &mo 5
-&none   &none               &kp LG(UP_ARROW)    &none                &none   &none       &kp BACKSPACE  &none   &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
-&none   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none   &none       &kp DELETE     &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F5
-&trans  &trans              &trans              &trans               &trans  &trans      &trans         &trans                                                   &trans
+&none   &kp F2              &none               &none                &none                                &none   &none           &none           &none            &mo 5
+&none   &none               &kp LG(UP_ARROW)    &none                &none   &none       &kp BACKSPACE    &none   &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
+&none   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none   &none       &kp RIGHT_SHIFT  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS
+&trans  &trans              &trans              &trans               &trans  &trans      &trans           &trans                                                   &kp F5
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -148,10 +148,10 @@
 
         SYMBOL {
             bindings = <
-&kp EXCLAMATION       &kp HASH                 &kp PERIOD         &kp COMMA            &kp LS(EQUAL)                                       &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LEFT_BRACKET
-&kp LS(SEMICOLON)     &kp MINUS                &kp DOUBLE_QUOTES  &kp SLASH            &kp LS(MINUS)            &none       &kp BACKSPACE  &kp LESS_THAN      &kp GREATER_THAN  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp ENTER
-&kp LS(LEFT_BRACKET)  &kp LS(INTERNATIONAL_3)  &kp DOLLAR         &kp INTERNATIONAL_3  &kp LS(INTERNATIONAL_1)  &none       &kp DELETE     &kp LS(NUMBER_7)   &kp LS(NUMBER_2)  &kp SINGLE_QUOTE       &kp SEMICOLON      &kp MINUS
-&trans                &trans                   &trans             &trans               &trans                   &trans      &trans         &trans                                                                         &trans
+&kp EXCLAMATION       &kp HASH                 &kp PERIOD         &kp COMMA            &kp LS(EQUAL)                                         &kp RIGHT_BRACKET  &kp BACKSLASH     &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LEFT_BRACKET
+&kp LS(SEMICOLON)     &kp MINUS                &kp DOUBLE_QUOTES  &kp SLASH            &kp LS(MINUS)            &none       &kp BACKSPACE    &kp LESS_THAN      &kp GREATER_THAN  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp ENTER
+&kp LS(LEFT_BRACKET)  &kp LS(INTERNATIONAL_3)  &kp DOLLAR         &kp INTERNATIONAL_3  &kp LS(INTERNATIONAL_1)  &none       &kp RIGHT_SHIFT  &kp LS(NUMBER_7)   &kp LS(NUMBER_2)  &kp SINGLE_QUOTE       &kp SEMICOLON      &kp MINUS
+&trans                &trans                   &trans             &trans               &trans                   &trans      &trans           &trans                                                                         &trans
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -170,10 +170,10 @@
 
         Snipe {
             bindings = <
-&none   &kp F2              &none               &none                &none                              &none      &none           &kp RS(LG(S))   &kp LC(W)        &mo 4
-&none   &none               &kp LG(UP_ARROW)    &none                &none   &none       &kp BACKSPACE  &kp LC(C)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
-&none   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none   &none       &kp DELETE     &kp LC(V)  &kp DOWN_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F5
-&trans  &trans              &trans              &trans               &trans  &trans      &trans         &trans                                                      &trans
+&none   &kp F2              &none               &none                &none                                &none      &none           &kp RS(LG(S))   &kp LC(W)        &mo 4
+&none   &none               &kp LG(UP_ARROW)    &none                &none   &none       &kp BACKSPACE    &kp LC(C)  &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
+&none   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none   &none       &kp RIGHT_SHIFT  &kp LC(V)  &kp DOWN_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS
+&trans  &trans              &trans              &trans               &trans  &trans      &trans           &trans                                                      &kp F5
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
@@ -181,10 +181,10 @@
 
         Tentative {
             bindings = <
-&kp EXCLAMATION  &kp HASH   &kp PERIOD    &kp COMMA             &kp TILDE                                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
-&kp PLUS         &kp MINUS  &kp ASTERISK  &kp SLASH             &kp EQUAL       &none       &kp BACKSPACE  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ENTER
-&kp GRAVE        &kp PIPE   &kp DOLLAR    &kp NON_US_BACKSLASH  &kp UNDERSCORE  &none       &kp DELETE     &kp SQT           &kp DOUBLE_QUOTES  &kp COLON             &kp SEMI               &kp MINUS
-&trans           &trans     &trans        &trans                &trans          &trans      &trans         &trans                                                                            &trans
+&kp EXCLAMATION  &kp HASH   &kp PERIOD    &kp COMMA             &kp TILDE                                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN
+&kp PLUS         &kp MINUS  &kp ASTERISK  &kp SLASH             &kp EQUAL       &none       &kp BACKSPACE    &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ENTER
+&kp GRAVE        &kp PIPE   &kp DOLLAR    &kp NON_US_BACKSLASH  &kp UNDERSCORE  &none       &kp RIGHT_SHIFT  &kp SQT           &kp DOUBLE_QUOTES  &kp COLON             &kp SEMI               &kp MINUS
+&trans           &trans     &trans        &trans                &trans          &trans      &trans           &trans                                                                            &kp QUESTION
             >;
         };
     };
