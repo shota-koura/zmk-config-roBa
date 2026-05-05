@@ -60,8 +60,8 @@
             key-positions = <8 7>;
         };
 
-        backspace {
-            bindings = <&kp BACKSPACE>;
+        forth_layer {
+            bindings = <&mo 4>;
             key-positions = <9 8>;
         };
 
@@ -140,7 +140,7 @@
 &none   &kp F2              &none               &none                &none                              &none   &none           &none           &none            &mo 5
 &none   &none               &kp LG(UP_ARROW)    &none                &none   &none       &kp BACKSPACE  &none   &mkp LCLK       &kp UP_ARROW    &mkp RCLK        &kp ENTER
 &none   &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &none   &none       &kp DELETE     &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F5
-&trans  &trans              &trans              &trans               &trans  &trans      &trans         &trans                                                   &mo 4
+&trans  &trans              &trans              &trans               &trans  &trans      &trans         &trans                                                   &trans
             >;
 
             sensor-bindings = <&encoder_msc_scroll>;
