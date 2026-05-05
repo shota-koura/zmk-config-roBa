@@ -69,6 +69,16 @@
             bindings = <&kp DELETE>;
             key-positions = <9 8 7>;
         };
+
+        PageUp {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <19 18>;
+        };
+
+        PageDown {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
